@@ -1,7 +1,6 @@
 # XMLReadForPython
 
 Namespace付きのXMLファイルを読み込むサンプル。
-
 ファイルは総務省統計局のe-Statのhttp://e-stat.go.jp/SG2/eStatGIS/page/download.htmlより取得したGMLデータをサンプルに利用させていただいています。
 
 ```
@@ -16,8 +15,6 @@ Namespace付きのXMLファイルを読み込むサンプル。
 ```
 
 find関数で namespace配列を渡さないとノードの検索ができないため、
-
 事前のnamespace配列が必要になります。
-
 namespace配列は 'namesapce':'url'の形式になります。
 
